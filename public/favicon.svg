@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="48" fill="#1a1a1a"/>
+
+  <!-- Benzene ring hexagon -->
+  <g transform="translate(50, 50)" filter="url(#glow)">
+    <!-- Outer hexagon -->
+    <path d="M 0,-30 L 26,-15 L 26,15 L 0,30 L -26,15 L -26,-15 Z"
+          fill="none"
+          stroke="#fb923c"
+          stroke-width="3.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"/>
+
+    <!-- Inner circle (representing delocalized electrons) -->
+    <circle cx="0" cy="0" r="15"
+            fill="none"
+            stroke="#f97316"
+            stroke-width="2.5"
+            opacity="0.8"/>
+
+    <!-- Carbon positions (dots at vertices) -->
+    <circle cx="0" cy="-30" r="3" fill="#fb923c"/>
+    <circle cx="26" cy="-15" r="3" fill="#fb923c"/>
+    <circle cx="26" cy="15" r="3" fill="#fb923c"/>
+    <circle cx="0" cy="30" r="3" fill="#fb923c"/>
+    <circle cx="-26" cy="15" r="3" fill="#fb923c"/>
+    <circle cx="-26" cy="-15" r="3" fill="#fb923c"/>
+
+    <!-- Additional glow effect -->
+    <path d="M 0,-30 L 26,-15 L 26,15 L 0,30 L -26,15 L -26,-15 Z"
+          fill="none"
+          stroke="#f97316"
+          stroke-width="1.5"
+          opacity="0.6"/>
+  </g>
+</svg>

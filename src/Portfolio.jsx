@@ -682,14 +682,14 @@ const Portfolio = () => {
             </div>
 
             <div className="mb-8 pt-8 border-t border-gray-700/50">
-              <h3 className="text-2xl font-bold text-center mb-6 text-yellow-400 pb-1">
+              <h3 className="text-2xl font-bold text-center mb-6 text-emerald-400 pb-1">
                 Core Strengths
               </h3>
               <div className="flex flex-wrap justify-center gap-3">
                 {['Communication', 'Adaptability', 'Critical Thinking', 'Teamwork', 'Leadership', 'Eager to Learn'].map((skill) => (
-                  <span 
-                    key={skill} 
-                    className="px-4 py-2 bg-yellow-500/20 text-yellow-400 rounded-full text-sm font-medium hover:bg-yellow-500/30 transition-all duration-300 hover:scale-105"
+                  <span
+                    key={skill}
+                    className="px-4 py-2 bg-emerald-500/20 text-emerald-400 rounded-full text-sm font-medium hover:bg-emerald-500/30 transition-all duration-300 hover:scale-105 border border-emerald-500/30"
                   >
                     {skill}
                   </span>
@@ -698,14 +698,14 @@ const Portfolio = () => {
             </div>
 
             <div className="pt-8 border-t border-gray-700/50">
-              <h3 className="text-2xl font-bold text-center mb-6 text-amber-400 pb-1">
+              <h3 className="text-2xl font-bold text-center mb-6 text-cyan-400 pb-1">
                 Lab & Fabrication
               </h3>
               <div className="flex flex-wrap justify-center gap-3">
                 {['Composite Layup', 'Soldering', 'Micropipette', '3D Printing'].map((skill) => (
                   <span
                     key={skill}
-                    className="px-4 py-2 bg-amber-500/20 text-amber-400 rounded-full text-sm font-medium hover:bg-amber-500/30 transition-all duration-300 hover:scale-105"
+                    className="px-4 py-2 bg-cyan-500/20 text-cyan-400 rounded-full text-sm font-medium hover:bg-cyan-500/30 transition-all duration-300 hover:scale-105 border border-cyan-500/30"
                   >
                     {skill}
                   </span>

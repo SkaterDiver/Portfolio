@@ -533,10 +533,11 @@ const Portfolio = () => {
                         </div>
                         <p className="text-gray-400 mb-2 text-sm">{item.subtitle}</p>
                         <p className="text-xs text-gray-500 mb-4">{item.date}</p>
-                        <ul className={`space-y-2 text-gray-300 text-sm ${isLeft ? 'text-right' : 'text-left'}`}>
+                        <ul className={`space-y-2 text-gray-300 text-sm`}>
                           {item.description.map((desc, i) => (
-                            <li key={i} className="leading-relaxed">
-                              {isLeft ? `${desc} •` : `• ${desc}`}
+                            <li key={i} className={`flex items-start gap-2 leading-relaxed ${isLeft ? 'flex-row-reverse text-right' : 'flex-row text-left'}`}>
+                              <span className="flex-shrink-0 mt-1">•</span>
+                              <span className="flex-1">{desc}</span>
                             </li>
                           ))}
                         </ul>

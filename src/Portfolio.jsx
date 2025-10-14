@@ -483,8 +483,8 @@ const Portfolio = () => {
             </div>
             <div className="bg-gray-800/50 backdrop-blur-sm rounded-2xl p-8 border border-gray-700 hover:border-red-500/50 transition-all duration-500 hover:transform hover:scale-105 hover:shadow-2xl hover:shadow-red-500/20">
               <p className="text-lg text-gray-300 leading-relaxed">
-                Through my experiences with UI/UX design, tutoring, and hands-on work with Waterloo Rocketry, I've discovered 
-                that I thrive when I'm solving real problems and picking up new skills along the way. I'm eager to bring this 
+                Through my experiences with UI/UX design, tutoring, and hands-on work with Waterloo Rocketry, 
+                I thrive solving real world problems and picking up new skills along the way. I'm eager to bring this 
                 enthusiasm and adaptability to my first co-op experience, where I can contribute while continuing to grow as 
                 an engineer.
               </p>

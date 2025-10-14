@@ -127,6 +127,7 @@ const Portfolio = () => {
       fullDesc: 'Designed and developed a fully responsive personal portfolio website to showcase my projects, experience, and skills. Built with React for component-based architecture, Vite for fast development, and Tailwind CSS for modern styling. Features include animated backgrounds, smooth scrolling, project filtering, and mobile-responsive design. This project demonstrates my ability to learn new technologies and create polished user interfaces.',
       skills: ['React', 'JavaScript', 'Tailwind CSS', 'Vite', 'UI/UX'],
       category: 'Development',
+      image: '/Website.png',
       imagePlaceholder: 'Portfolio Website'
     },
     {
@@ -606,8 +607,8 @@ const Portfolio = () => {
                 >
                   {/* 16:9 Aspect Ratio Image Container */}
                   <div className="relative overflow-hidden" style={{ paddingTop: '56.25%' }}>
-                    <img 
-                      src={`data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='225'%3E%3Crect width='400' height='225' fill='%23374151'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-size='16' fill='%239CA3AF'%3E${project.imagePlaceholder}%3C/text%3E%3C/svg%3E`}
+                    <img
+                      src={project.image || `data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='225'%3E%3Crect width='400' height='225' fill='%23374151'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-size='16' fill='%239CA3AF'%3E${project.imagePlaceholder}%3C/text%3E%3C/svg%3E`}
                       alt={project.title}
                       className="absolute top-0 left-0 w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
                     />
@@ -736,8 +737,8 @@ const Portfolio = () => {
               </button>
 
               <div className="relative overflow-hidden rounded-t-3xl" style={{ paddingTop: '50%' }}>
-                <img 
-                  src={`data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='800' height='400'%3E%3Crect width='800' height='400' fill='%23374151'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-size='24' fill='%239CA3AF'%3E${selectedProject.imagePlaceholder}%3C/text%3E%3C/svg%3E`}
+                <img
+                  src={selectedProject.image || `data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='800' height='400'%3E%3Crect width='800' height='400' fill='%23374151'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-size='24' fill='%239CA3AF'%3E${selectedProject.imagePlaceholder}%3C/text%3E%3C/svg%3E`}
                   alt={selectedProject.title}
                   className="absolute top-0 left-0 w-full h-full object-cover"
                 />

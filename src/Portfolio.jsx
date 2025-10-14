@@ -53,12 +53,12 @@ const Portfolio = () => {
       title: 'Waterloo Rocketry',
       subtitle: 'Airframe Subteam Member',
       date: '2025 - Present',
-      color: 'orange',
+      color: 'amber',
       description: [
-        'Building composite molds and rocket components using infusion and wet layup techniques',
+        'Building reusable composite molds and rocket components using infusion and wet layup techniques',
         'Learning advanced manufacturing processes for aerospace-grade parts',
         'Collaborating with a multidisciplinary team to design and test rocket systems',
-        'Gaining hands-on experience with materials science and structural engineering'
+        'Gaining hands-on experience with materials science, manufacturing and structural engineering'
       ]
     },
     {
@@ -81,7 +81,7 @@ const Portfolio = () => {
       title: 'DECA Competitor',
       subtitle: 'Business Ethics Case Study',
       date: 'Grade 12, 2024-2025',
-      color: 'amber',
+      color: 'orange',
       description: [
         'Competed at the regional level, presenting an ethics case study to a panel of judges',
         'Developed critical thinking and presentation skills under pressure',
@@ -134,7 +134,7 @@ const Portfolio = () => {
       title: 'Metal Fin Cap Optimization',
       shortDesc: 'Research on optimal design for rocket fin leading edges',
       fullDesc: 'Conducting independent research to determine the optimal design and manufacturing process for metal caps on rocket fin leading edges. Exploring materials selection, manufacturing techniques, and aerodynamic considerations to improve rocket performance and durability. This project combines materials science, CAD design, and practical manufacturing knowledge.',
-      skills: ['Materials Science', 'CAD', 'Manufacturing', 'Research', 'SolidWorks'],
+      skills: ['Materials Science', 'CAD', 'Manufacturing', 'Research'],
       category: 'Engineering',
       imagePlaceholder: 'Rocket Fins'
     },
@@ -160,7 +160,7 @@ const Portfolio = () => {
       id: 'toothbrush',
       title: '3D Printed Toothbrush Cap',
       shortDesc: 'Custom CAD solution for everyday problem',
-      fullDesc: 'A fun personal project where I applied my CAD skills to solve an everyday problem. Designed and 3D printed a custom toothbrush cap to keep my toothbrush clean while traveling. This small project demonstrates how engineering thinking can be applied to solve practical problems in daily life, from concept to physical prototype.',
+      fullDesc: 'A fun personal project where I applied my CAD skills to solve an everyday problem. Designed and 3D printed a custom toothbrush cap to keep my toothbrush clean while traveling (and when my roommate is shaving). This small project demonstrates how engineering thinking can be applied to solve practical problems in daily life, from concept to physical prototype.',
       skills: ['CAD', '3D Printing', 'Problem Solving','SolidWorks'],
       category: 'Personal',
       imagePlaceholder: 'Toothbrush Cap'
@@ -420,7 +420,7 @@ const Portfolio = () => {
         <div className="mb-8 relative group">
           <div className="relative">
             <img
-              src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Crect width='200' height='200' fill='%23374151'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-size='20' fill='%239CA3AF'%3EYour Photo%3C/text%3E%3C/svg%3E"
+              src="/ProfileHeadshot.JPG"
               alt="Philip Szymborski"
               className="w-56 h-56 rounded-full border-4 border-orange-500/30 shadow-2xl transform group-hover:scale-105 transition-transform duration-500"
             />

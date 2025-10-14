@@ -155,6 +155,7 @@ const Portfolio = () => {
       fullDesc: 'Designed and implemented responsive landing and login pages for a startup, focusing on user experience and visual appeal. Learned to work with React components, manage state, and create interfaces that balance functionality with aesthetics. Collaborated with a fast-paced startup team to deliver features under tight deadlines.',
       skills: ['React', 'JavaScript', 'UI/UX', 'HTML/CSS'],
       category: 'Development',
+      image: '/Website2.png',
       imagePlaceholder: 'Pyko UI'
     },
     {

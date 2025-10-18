@@ -48,10 +48,23 @@ const Portfolio = () => {
 
   const experienceItems = [
     {
+      id: 'undergraduate',
+      icon: Wrench,
+      title: 'Nanotechnology Engineer',
+      subtitle: 'University of Waterloo',
+      date: '2025 - 2030',
+      color: 'orange',
+      description: [
+        'First accredited Nanotechnology program in Canada',
+        'Based on principles from biology, chemistry, electronics, and quantum physics to create materials and machines far too small to see with the naked eye',
+        'Intersection of Electrical, Chemical and Materials Engineering',
+      ]
+    },
+    {
       id: 'rocketry',
       icon: Rocket,
-      title: 'Waterloo Rocketry',
-      subtitle: 'Airframe Subteam Member',
+      title: 'Airframe Subteam Member',
+      subtitle: 'Waterloo Rocketry',
       date: '2025 - Present',
       color: 'amber',
       description: [
@@ -78,8 +91,8 @@ const Portfolio = () => {
     {
       id: 'deca',
       icon: Award,
-      title: 'DECA Competitor',
-      subtitle: 'Business Ethics Case Study',
+      title: 'DECA Regionals Competitor',
+      subtitle: 'DECA',
       date: 'Grade 12, 2024-2025',
       color: 'orange',
       description: [
@@ -98,9 +111,8 @@ const Portfolio = () => {
       color: 'yellow',
       description: [
         'Designed and implemented prototype landing and login pages using JavaScript and React',
-        'Translated product requirements into intuitive user interfaces',
-        'Collaborated with a startup team to deliver features under tight deadlines',
-        'Learned to balance aesthetic design with functional user experience'
+        'Worked with technology to translate product requirements into intuitive user interfaces',
+        'Collaborated with a startup team to deliver features under tight deadlines'
       ]
     },
     {
@@ -109,12 +121,12 @@ const Portfolio = () => {
       title: 'Professional Tutor',
       subtitle: 'BookSmart Tutoring',
       date: '2025',
-      color: 'yellow',
+      color: 'red',
       description: [
         'Delivered personalized tutoring sessions for K-8 students, both online and in-person',
-        'Adapted teaching strategies to meet individual learning styles',
+        'Built and adapted teaching strategies to meet individual learning styles',
         'Developed patience and communication skills by explaining complex concepts clearly',
-        'Managed scheduling and progress tracking to ensure consistent learning outcomes'
+        'Managed scheduling and progress tracking to meet learning objectives'
       ]
     }
   ];
@@ -124,7 +136,7 @@ const Portfolio = () => {
       id: 'portfolio-website',
       title: 'Personal Portfolio Website',
       shortDesc: 'Interactive portfolio built with React and Tailwind CSS',
-      fullDesc: 'Designed and developed a fully responsive personal portfolio website to showcase my projects, experience, and skills. Built with React for component-based architecture, Vite for fast development, and Tailwind CSS for modern styling. Features include animated backgrounds, smooth scrolling, project filtering, and mobile-responsive design. This project demonstrates my ability to learn new technologies and create polished user interfaces.',
+      fullDesc: 'Designed and developed a fully responsive personal portfolio website using Claude code to showcase my projects, experience, and skills. Built with React for component-based architecture, Vite for fast development, and Tailwind CSS for modern styling. This project demonstrates my ability to work with new technologies and create polished user interfaces.',
       skills: ['React', 'JavaScript', 'Tailwind CSS', 'Vite', 'UI/UX'],
       category: 'Development',
       image: '/Website.png',
@@ -134,7 +146,7 @@ const Portfolio = () => {
       id: 'fin-research',
       title: 'Metal Fin Cap Optimization',
       shortDesc: 'Research on optimal design for rocket fin leading edges',
-      fullDesc: 'Conducting independent research to determine the optimal design and manufacturing process for metal caps on rocket fin leading edges. Exploring materials selection, manufacturing techniques, and aerodynamic considerations to improve rocket performance and durability. This project combines materials science, CAD design, and practical manufacturing knowledge.',
+      fullDesc: 'Conducting independent research to determine the optimal design and manufacturing process for a new feature on our 2025-2026 rocket. Exploring materials selection, manufacturing techniques, and thermal considerations to improve rocket performance and durability. This project combines materials science, CAD design, and practical manufacturing knowledge.',
       skills: ['Materials Science', 'CAD', 'Manufacturing', 'Research'],
       category: 'Engineering',
       imagePlaceholder: 'Rocket Fins'
@@ -143,7 +155,7 @@ const Portfolio = () => {
       id: 'composite',
       title: 'Composite Rocket Parts',
       shortDesc: 'Aerospace-grade composite fabrication',
-      fullDesc: 'Building aerospace-grade composite structures for Waterloo Rocketry using infusion and wet layup techniques. Learning to create molds, work with carbon fiber and fiberglass, and produce lightweight, high-strength components for rocket airframes. Hands-on experience with advanced manufacturing processes used in the aerospace industry.',
+      fullDesc: 'Building aerospace-grade composite structures for Waterloo Rocketry using infusion and wet layup techniques. Learning to create molds, work with carbon fiber and fiberglass, to produce lightweight, high-strength components for rocket airframes. Hands-on experience with advanced manufacturing processes used in the aerospace industry.',
       skills: ['Composites', 'Manufacturing', 'Aerospace', 'Materials Science'],
       category: 'Engineering',
       imagePlaceholder: 'Composite Parts'
@@ -152,7 +164,7 @@ const Portfolio = () => {
       id: 'pyko-ui',
       title: 'Pyko.app Interface',
       shortDesc: 'Startup landing page design',
-      fullDesc: 'Designed and implemented responsive landing and login pages for a startup, focusing on user experience and visual appeal. Learned to work with React components, manage state, and create interfaces that balance functionality with aesthetics. Collaborated with a fast-paced startup team to deliver features under tight deadlines.',
+      fullDesc: 'Designed and implemented responsive landing and login pages for a startup, focusing on user experience and visual appeal. Learned to work with Claude to create interfaces that balance functionality with aesthetics. Collaborated with a fast-paced startup team to deliver features under tight deadlines.',
       skills: ['React', 'JavaScript', 'UI/UX', 'HTML/CSS'],
       category: 'Development',
       image: '/Website2.png',
@@ -161,7 +173,7 @@ const Portfolio = () => {
     {
       id: 'toothbrush',
       title: '3D Printed Toothbrush Cap',
-      shortDesc: 'Custom CAD solution for everyday problem',
+      shortDesc: 'Custom CAD solution for an everyday problem',
       fullDesc: 'A fun personal project where I applied my CAD skills to solve an everyday problem. Designed and 3D printed a custom toothbrush cap to keep my toothbrush clean while traveling (and when my roommate is shaving). This small project demonstrates how engineering thinking can be applied to solve practical problems in daily life, from concept to physical prototype.',
       skills: ['CAD', '3D Printing', 'Problem Solving','SolidWorks'],
       category: 'Personal',

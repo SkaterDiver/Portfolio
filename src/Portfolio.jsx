@@ -488,18 +488,12 @@ const Portfolio = () => {
           <div className="grid md:grid-cols-2 gap-8">
             <div className="bg-gray-800/50 backdrop-blur-sm rounded-2xl p-8 border border-gray-700 hover:border-orange-500/50 transition-all duration-500 hover:transform hover:scale-105 hover:shadow-2xl hover:shadow-orange-500/20">
               <p className="text-lg text-gray-300 leading-relaxed">
-                I'm a first-year Nanotechnology Engineering student at the University of Waterloo with a passion
-                for engineering at both the macro and nano scales. What excites me most about engineering is the opportunity
-                to learn something new every day, whether it's learning a new CAD technique, working hands-on with composite fabrication,
-                or diving into webpage development.
+                I'm an ambitious first-year Nanotechnology Engineering student at the University of Waterloo with a passion for engineering at both the macro and nano scales. What excites me most about engineering is the opportunity to solve new problems every day, whether it's learning a new CAD technique, working hands-on with composite fabrication, or diving into webpage development
               </p>
             </div>
             <div className="bg-gray-800/50 backdrop-blur-sm rounded-2xl p-8 border border-gray-700 hover:border-red-500/50 transition-all duration-500 hover:transform hover:scale-105 hover:shadow-2xl hover:shadow-red-500/20">
               <p className="text-lg text-gray-300 leading-relaxed">
-                Through my experiences with UI/UX design, tutoring, and hands-on work with Waterloo Rocketry, 
-                I thrive solving real world problems and picking up new skills along the way. I'm eager to bring this 
-                enthusiasm and adaptability to my first co-op experience, where I can contribute while continuing to grow as 
-                an engineer.
+                Through my experiences within my courses, side projects, and hands-on work with Waterloo Rocketry, I thrive solving real world problems and picking up new skills along the way. I'm eager to bring this enthusiasm and adaptability to my first co-op experience, where I can contribute while continuing to grow as an engineer.
               </p>
             </div>
           </div>

@@ -439,7 +439,6 @@ const Portfolio = () => {
               alt="Philip Szymborski"
               className="w-56 h-56 rounded-full border-4 border-orange-500/30 shadow-2xl transform group-hover:scale-105 transition-transform duration-500"
             />
-            <div className="absolute inset-0 rounded-full bg-gradient-to-r from-orange-500 to-red-500 opacity-0 group-hover:opacity-20 blur-2xl transition-opacity duration-500" />
           </div>
         </div>
 

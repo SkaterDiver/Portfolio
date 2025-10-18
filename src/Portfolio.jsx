@@ -50,14 +50,15 @@ const Portfolio = () => {
     {
       id: 'undergraduate',
       icon: Wrench,
-      title: 'Nanotechnology Engineer',
+      title: 'Undergraduate Nanotechnology Engineer',
       subtitle: 'University of Waterloo',
       date: '2025 - 2030',
       color: 'orange',
       description: [
         'First accredited Nanotechnology program in Canada',
-        'Based on principles from biology, chemistry, electronics, and quantum physics to create materials and machines far too small to see with the naked eye',
+        'Based on principles from biology, chemistry, electronics, and quantum physics to create materials and machines in the nano scale',
         'Intersection of Electrical, Chemical and Materials Engineering',
+        'Confident in a large skill set, from lab and manufacturing skills to CAD and programming'
       ]
     },
     {

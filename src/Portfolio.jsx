@@ -55,10 +55,10 @@ const Portfolio = () => {
       date: '2025 - 2030',
       color: 'orange',
       description: [
-        'First accredited Nanotechnology program in Canada',
-        'Based on principles from biology, chemistry, electronics, and quantum physics to create materials and machines in the nano scale',
+        'Only accredited Undergraduate Nanotechnology program in Canada',
+        'Based on principles from biology, chemistry, electronics, and quantum physics to create advanced materials and components in the nano scale',
         'Intersection of Electrical, Chemical and Materials Engineering',
-        'Confident in a large skill set, from lab and manufacturing skills to CAD and programming'
+        'Confident in a large interdisciplinary skill set, from lab and manufacturing skills to CAD and programming'
       ]
     },
     {
@@ -80,7 +80,7 @@ const Portfolio = () => {
       icon: Users,
       title: 'Computer Club Head Executive',
       subtitle: 'St. Aloysius Gonzaga SS',
-      date: 'Grade 12, 2024-2025',
+      date: 'Grade 12, 2024 - 2025',
       color: 'red',
       description: [
         'Led presentations and tutored club members in programming fundamentals',
@@ -94,7 +94,7 @@ const Portfolio = () => {
       icon: Award,
       title: 'DECA Regionals Competitor',
       subtitle: 'DECA',
-      date: 'Grade 12, 2024-2025',
+      date: 'Grade 11 & 12, 2023 - 2025',
       color: 'orange',
       description: [
         'Competed at the regional level, presenting an ethics case study to a panel of judges',
@@ -137,8 +137,8 @@ const Portfolio = () => {
       id: 'portfolio-website',
       title: 'Personal Portfolio Website',
       shortDesc: 'Interactive portfolio built with React and Tailwind CSS',
-      fullDesc: 'Designed and developed a fully responsive personal portfolio website using Claude code to showcase my projects, experience, and skills. Built with React for component-based architecture, Vite for fast development, and Tailwind CSS for modern styling. This project demonstrates my ability to work with new technologies and create polished user interfaces.',
-      skills: ['React', 'JavaScript', 'Tailwind CSS', 'Vite', 'UI/UX'],
+      fullDesc: 'Designed and developed a fully responsive personal portfolio website with AI collaboration from Claude code to showcase my projects, experience, and skills. Built with React for component-based architecture, Vite for fast development, and Tailwind CSS for modern styling. This project demonstrates my ability to work with new technologies and create polished user interfaces.',
+      skills: ['React', 'JavaScript', 'HTML/CSS', 'UI/UX', 'AI Tools & Automation'],
       category: 'Development',
       image: '/Website.png',
       imagePlaceholder: 'Portfolio Website'
@@ -165,8 +165,8 @@ const Portfolio = () => {
       id: 'pyko-ui',
       title: 'Pyko.app Interface',
       shortDesc: 'Startup landing page design',
-      fullDesc: 'Designed and implemented responsive landing and login pages for a startup, focusing on user experience and visual appeal. Learned to work with Claude to create interfaces that balance functionality with aesthetics. Collaborated with a fast-paced startup team to deliver features under tight deadlines.',
-      skills: ['React', 'JavaScript', 'UI/UX', 'HTML/CSS'],
+      fullDesc: 'Designed and implemented responsive and interactive landing and login pages for a startup, focusing on user experience and visual appeal. Used AI-Assisted Development to vastly improve workflow. Collaborated with a fast-paced startup team to deliver features under tight deadlines.',
+      skills: ['React', 'JavaScript', 'UI/UX', 'HTML/CSS', 'AI Tools & Automation'],
       category: 'Development',
       image: '/Website2.png',
       imagePlaceholder: 'Pyko UI'
@@ -190,11 +190,11 @@ const Portfolio = () => {
     : projects.filter(p => p.category === filterTag || p.skills.includes(filterTag));
 
   const colorClasses = {
-    orange: { border: 'border-orange-500/50', bg: 'bg-orange-500/20', text: 'text-orange-400', glow: 'shadow-orange-500/50' },
-    red: { border: 'border-red-500/50', bg: 'bg-red-500/20', text: 'text-red-400', glow: 'shadow-red-500/50' },
-    amber: { border: 'border-amber-500/50', bg: 'bg-amber-500/20', text: 'text-amber-400', glow: 'shadow-amber-500/50' },
-    yellow: { border: 'border-yellow-500/50', bg: 'bg-yellow-500/20', text: 'text-yellow-400', glow: 'shadow-yellow-500/50' },
-    pink: { border: 'border-pink-500/50', bg: 'bg-pink-500/20', text: 'text-pink-400', glow: 'shadow-pink-500/50' }
+    orange: { border: 'border-orange-500/50', bg: 'bg-orange-500/20', text: 'text-orange-400', shadow: 'shadow-orange-500/50' },
+    red: { border: 'border-red-500/50', bg: 'bg-red-500/20', text: 'text-red-400', shadow: 'shadow-red-500/50' },
+    amber: { border: 'border-amber-500/50', bg: 'bg-amber-500/20', text: 'text-amber-400', shadow: 'shadow-amber-500/50' },
+    yellow: { border: 'border-yellow-500/50', bg: 'bg-yellow-500/20', text: 'text-yellow-400', shadow: 'shadow-yellow-500/50' },
+    pink: { border: 'border-pink-500/50', bg: 'bg-pink-500/20', text: 'text-pink-400', shadow: 'shadow-pink-500/50' }
   };
 
   const scrollToSection = (id) => {
@@ -500,71 +500,80 @@ const Portfolio = () => {
       </section>
 
       {/* Experience Section */}
-      <section 
-        id="experience" 
+      <section
+        id="experience"
         ref={(el) => (sectionRefs.current.experience = el)}
         className="py-24 px-6 bg-gray-800/20"
       >
-        <div className="max-w-5xl mx-auto">
-          <h2 className="text-5xl font-bold mb-20 text-center bg-gradient-to-r from-amber-400 to-orange-500 bg-clip-text text-transparent pb-2">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-5xl font-bold mb-16 text-center bg-gradient-to-r from-amber-400 to-orange-500 bg-clip-text text-transparent pb-2">
             My Journey
           </h2>
 
           <div className="relative">
-            {/* Straight Vertical Line */}
-            <div className="absolute left-1/2 transform -translate-x-1/2 w-1 h-full bg-gradient-to-b from-orange-500 via-red-500 to-amber-500 opacity-30" />
+            {/* Vertical Timeline Line */}
+            <div className="absolute left-8 md:left-12 top-0 bottom-0 w-0.5 bg-gradient-to-b from-orange-500 via-red-500 to-amber-500 opacity-30" />
 
-            {experienceItems.map((item, index) => {
-              const Icon = item.icon;
-              const isLeft = index % 2 === 0;
-              const colors = colorClasses[item.color];
+            <div className="space-y-8">
+              {experienceItems.map((item, index) => {
+                const Icon = item.icon;
+                const colors = colorClasses[item.color];
 
-              return (
-                <div
-                  key={item.id}
-                  id={`exp-${item.id}`}
-                  ref={(el) => (sectionRefs.current[`exp-${item.id}`] = el)}
-                  className={`relative mb-16 transition-all duration-300 ${
-                    visibleSections[`exp-${item.id}`]
-                      ? 'opacity-100 translate-x-0'
-                      : `opacity-0 ${isLeft ? '-translate-x-10' : 'translate-x-10'}`
-                  }`}
-                >
-                  <div className={`flex items-center justify-center gap-6`}>
-                    {/* Content Card */}
-                    <div className={`${isLeft ? 'order-1' : 'order-3'} w-5/12 max-w-md ${isLeft ? 'text-right' : 'text-left'}`}>
-                      <div 
-                        className={`bg-gray-800/70 backdrop-blur-sm rounded-2xl p-6 border ${colors.border} transition-all duration-500 hover:transform hover:scale-105 hover:shadow-2xl group`}
-                      >
-                        <div className={`flex items-center gap-3 mb-3 ${isLeft ? 'justify-end' : 'justify-start'}`}>
-                          <h3 className={`text-xl font-bold ${colors.text} pb-1`}>{item.title}</h3>
+                return (
+                  <div
+                    key={item.id}
+                    id={`exp-${item.id}`}
+                    ref={(el) => (sectionRefs.current[`exp-${item.id}`] = el)}
+                    className={`relative transition-all duration-300 ${
+                      visibleSections[`exp-${item.id}`]
+                        ? 'opacity-100 translate-x-0'
+                        : 'opacity-0 -translate-x-10'
+                    }`}
+                  >
+                    <div className="flex gap-6 md:gap-8">
+                      {/* Timeline Icon */}
+                      <div className="relative flex-shrink-0 z-10">
+                        <div className={`w-16 h-16 md:w-20 md:h-20 ${colors.bg} rounded-2xl flex items-center justify-center border-4 border-gray-900 shadow-xl group hover:scale-110 transition-transform duration-300`}>
+                          <Icon size={28} className={colors.text} />
                         </div>
-                        <p className="text-gray-400 mb-2 text-sm">{item.subtitle}</p>
-                        <p className="text-xs text-gray-500 mb-4">{item.date}</p>
-                        <ul className={`space-y-2 text-gray-300 text-sm`}>
-                          {item.description.map((desc, i) => (
-                            <li key={i} className={`flex items-start gap-2 leading-relaxed ${isLeft ? 'flex-row-reverse text-right' : 'flex-row text-left'}`}>
-                              <span className="flex-shrink-0 mt-1">•</span>
-                              <span className="flex-1">{desc}</span>
-                            </li>
-                          ))}
-                        </ul>
+                      </div>
+
+                      {/* Content Card */}
+                      <div className="flex-1 pb-4">
+                        <div
+                          className={`bg-gray-800/70 backdrop-blur-sm rounded-2xl p-6 border ${colors.border} transition-all duration-500 hover:transform hover:scale-[1.02] hover:shadow-2xl group ${
+                            item.color === 'orange' ? 'hover:shadow-orange-500/50' :
+                            item.color === 'red' ? 'hover:shadow-red-500/50' :
+                            item.color === 'amber' ? 'hover:shadow-amber-500/50' :
+                            item.color === 'yellow' ? 'hover:shadow-yellow-500/50' :
+                            'hover:shadow-pink-500/50'
+                          }`}
+                        >
+                          {/* Header */}
+                          <div className="mb-4">
+                            <h3 className={`text-2xl font-bold ${colors.text} pb-1 mb-2`}>
+                              {item.title}
+                            </h3>
+                            <p className="text-gray-300 font-medium mb-1">{item.subtitle}</p>
+                            <p className="text-sm text-gray-500">{item.date}</p>
+                          </div>
+
+                          {/* Description */}
+                          <ul className="space-y-2.5 text-gray-300 text-sm">
+                            {item.description.map((desc, i) => (
+                              <li key={i} className="flex items-start gap-3 leading-relaxed">
+                                <span className={`flex-shrink-0 mt-1.5 w-1.5 h-1.5 rounded-full ${colors.bg}`} />
+                                <span className="flex-1">{desc}</span>
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
                       </div>
                     </div>
-
-                    {/* Center Icon */}
-                    <div className="order-2 relative z-10">
-                      <div className={`w-14 h-14 ${colors.bg} rounded-full flex items-center justify-center border-4 border-gray-900 shadow-xl transition-transform duration-500`}>
-                        <Icon size={24} className={colors.text} />
-                      </div>
-                    </div>
-
-                    {/* Spacer */}
-                    <div className={`${isLeft ? 'order-3' : 'order-1'} w-5/12 max-w-md`} />
                   </div>
-                </div>
-              );
-            })}
+                );
+              })}
+            </div>
           </div>
         </div>
       </section>
@@ -695,7 +704,7 @@ const Portfolio = () => {
                 Core Strengths
               </h3>
               <div className="flex flex-wrap justify-center gap-3">
-                {['Communication', 'Adaptability', 'Critical Thinking', 'Teamwork', 'Leadership', 'Eager to Learn'].map((skill) => (
+                {['Communication', 'Adaptability', 'Critical Thinking', 'Teamwork', 'Leadership', 'Eager to Learn', 'Problem Solving'].map((skill) => (
                   <span
                     key={skill}
                     className="px-4 py-2 bg-amber-500/20 text-amber-300 rounded-full text-sm font-medium hover:bg-amber-500/30 transition-all duration-300 hover:scale-105 border border-amber-500/40"
@@ -841,7 +850,7 @@ const Portfolio = () => {
                 </span>
                 <br />
                 <span className="text-xl">
-                  First co-op position for Summer/Fall 2025 where I can apply my technical skills 
+                  First co-op position for Spring/Summer 2026 where I can apply my technical skills 
                   and passion for learning to real-world engineering challenges.
                 </span>
               </p>
@@ -852,7 +861,7 @@ const Portfolio = () => {
 
       {/* Footer */}
       <footer className="py-8 px-6 border-t border-gray-800 text-center text-gray-400 bg-gray-900/50">
-        <p className="text-lg mb-2">© 2025 Philip Szymborski</p>
+        <p className="text-lg mb-2"> 2025 Philip Szymborski</p>
         <p className="text-sm">Nanotechnology Engineering @ University of Waterloo</p>
         <p className="text-xs mt-4 text-gray-500">Built with React & Tailwind CSS</p>
       </footer>

@@ -171,15 +171,6 @@ const Portfolio = () => {
       image: '/Website2.png',
       imagePlaceholder: 'Pyko UI'
     },
-    {
-      id: 'toothbrush',
-      title: '3D Printed Toothbrush Cap',
-      shortDesc: 'Custom CAD solution for an everyday problem',
-      fullDesc: 'A fun personal project where I applied my CAD skills to solve an everyday problem. Designed and 3D printed a custom toothbrush cap to keep my toothbrush clean while traveling (and when my roommate is shaving). This small project demonstrates how engineering thinking can be applied to solve practical problems in daily life, from concept to physical prototype.',
-      skills: ['CAD', '3D Printing', 'Problem Solving','SolidWorks'],
-      category: 'Personal',
-      imagePlaceholder: 'Toothbrush Cap'
-    }
   ];
 
   const allSkills = [...new Set(projects.flatMap(p => p.skills))];

@@ -1,0 +1,18 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#fafafa"/>
+  <rect x="100" y="100" width="600" height="400" fill="white" stroke="#e5e7eb" stroke-width="2" rx="12"/>
+  <text x="400" y="180" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#1f2937" text-anchor="middle">
+    Pyko.app
+  </text>
+  <text x="400" y="220" font-family="Arial, sans-serif" font-size="16" fill="#6b7280" text-anchor="middle">
+    Landing Page Interface
+  </text>
+  <rect x="200" y="270" width="180" height="50" fill="#5B7C99" rx="8"/>
+  <text x="290" y="302" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">
+    Get Started
+  </text>
+  <rect x="420" y="270" width="180" height="50" fill="white" stroke="#5B7C99" stroke-width="2" rx="8"/>
+  <text x="510" y="302" font-family="Arial, sans-serif" font-size="16" fill="#5B7C99" text-anchor="middle">
+    Learn More
+  </text>
+</svg>

@@ -1,0 +1,18 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#f0f4f8"/>
+  <rect x="50" y="50" width="700" height="500" fill="white" stroke="#cbd5e1" stroke-width="2" rx="8"/>
+  <rect x="50" y="50" width="700" height="60" fill="#5B7C99" rx="8" ry="0"/>
+  <circle cx="90" cy="80" r="8" fill="#ef4444"/>
+  <circle cx="120" cy="80" r="8" fill="#f59e0b"/>
+  <circle cx="150" cy="80" r="8" fill="#10b981"/>
+  <text x="400" y="90" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">
+    Portfolio Website
+  </text>
+  <line x1="50" y1="110" x2="750" y2="110" stroke="#cbd5e1" stroke-width="2"/>
+  <rect x="100" y="150" width="600" height="40" fill="#e2e8f0" rx="4"/>
+  <rect x="100" y="220" width="250" height="200" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1" rx="4"/>
+  <rect x="380" y="220" width="320" height="200" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1" rx="4"/>
+  <circle cx="220" cy="280" r="30" fill="#5B7C99" opacity="0.3"/>
+  <rect x="140" y="330" width="160" height="8" fill="#cbd5e1" rx="4"/>
+  <rect x="140" y="350" width="120" height="8" fill="#cbd5e1" rx="4"/>
+</svg>

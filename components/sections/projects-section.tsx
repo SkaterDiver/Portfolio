@@ -51,14 +51,14 @@ export default function ProjectsSection() {
     {
       title: "Personal Portfolio Website",
       description:
-        "Interactive portfolio built with React and Tailwind CSS",
+        "Interactive portfolio built with Next.js and deployed on Cloudflare",
       image: "/portfolio-old.png",
-      tags: ["React", "JavaScript", "HTML/CSS", "UI/UX", "AI Tools & Automation","Software"],
+      tags: ["React", "JavaScript", "HTML/CSS", "UI/UX", "AI Tools & Automation","Software","Cloudflare"],
       category: "Development",
       details:
-        "Designed and developed a fully responsive personal portfolio website with AI collaboration from Claude code to showcase my projects, experience, and skills. Built with React for component-based architecture, Vite for fast development, and Tailwind CSS for modern styling. This project demonstrates my ability to work with new technologies and create polished user interfaces.",
-      githubUrl: "https://github.com/SkaterDiver",
-      liveUrl: "", // Add live URL when deployed
+        "Designed and developed a fully responsive personal portfolio website with AI collaboration from Claude Code to showcase my projects, experience, and skills. Built with Next.js 16 for modern React architecture and Tailwind CSS 4 for utility-first styling. Features include dynamic project filtering by category and skills, animated transitions, integrated contact form with Formspree, and certification ID copying functionality. Deployed to Cloudflare Pages with custom domain configuration and automatic GitHub deployment pipeline. This project demonstrates proficiency in modern web development, AI-assisted development workflows, and full-stack deployment strategies.",
+      githubUrl: "https://github.com/SkaterDiver/Portfolio",
+      liveUrl: "https://pszymbor.dev",
     },
     {
       title: "CSWA Certification",

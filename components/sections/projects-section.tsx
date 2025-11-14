@@ -81,7 +81,7 @@ export default function ProjectsSection() {
       tags: ["AI Tools & Automation", "Python", "Software"],
       category: "Machine Learning",
       details:
-        "Participated in a multi-day reinforcement learning workshop focused on learning the basics of reinforcement learning strategies and algorithms. Projects included optimizing an agent's 2D pathfinding on a square grid obstacle course, training a simulated robot arm to optimally move blocks into a loading zone and teaching a robot cheetah to 'run' efficiently (pictured). All of these projects teach the agent through trial and error, rewarding optimal movement patterns. This hands-on learning experience provided insight into how AI agents learn to control physical systems and the practical challenges of reinforcement learning.",
+        "Participated in a multi-day reinforcement learning workshop hosted by Waterloo Engineering focused on learning the basics of reinforcement learning strategies and algorithms. Projects included optimizing an agent's 2D pathfinding on a square grid obstacle course, training a simulated robot arm to optimally move blocks into a loading zone and teaching a robot cheetah to 'run' efficiently (pictured). All of these projects teach the agent through trial and error, rewarding optimal movement patterns. This hands-on learning experience provided insight into how AI agents learn to control physical systems and the practical challenges of reinforcement learning.",
       githubUrl: "",
       liveUrl: "",
     },

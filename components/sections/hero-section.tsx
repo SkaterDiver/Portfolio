@@ -63,7 +63,7 @@ export default function HeroSection() {
               <div className="absolute inset-0 flex items-center justify-center p-8">
                 <div className="relative w-full h-full max-w-md max-h-md">
                   <Image
-                    src="/profileheadshot.jpg"
+                    src="/ProfileHeadshot.JPG"
                     alt="Philip Szymborski"
                     fill
                     className="object-cover rounded-3xl border-4 border-primary/10 shadow-2xl"

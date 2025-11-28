@@ -37,28 +37,40 @@ export default function ProjectsSection() {
       liveUrl: "",
     },
     {
-      title: "Pyko.com Interface",
+      title: "Pyko beta UI",
       description:
         "Startup landing page design",
       image: "/Pyko.png",
-      tags: ["React", "JavaScript", "UI/UX", "HTML/CSS", "AI Tools & Automation","Software"],
+      tags: ["React", "JavaScript", "UI/UX", "HTML/CSS", "AI Development Tools","Software"],
       category: "Development",
       details:
         "Designed and implemented responsive and interactive prototype landing and login pages for a startup, focusing on user experience and visual appeal. Used AI-Assisted Development to vastly improve workflow. Collaborated with a fast-paced startup team to deliver features under tight deadlines.",
       githubUrl: "",
-      liveUrl: "https://pyko.com", // Add actual URL if different
+      liveUrl: "https://pyko.com",
     },
     {
       title: "Personal Portfolio Website",
       description:
         "Interactive portfolio built with Next.js and deployed on Cloudflare",
       image: "/portfolio-old.png",
-      tags: ["React", "JavaScript", "HTML/CSS", "UI/UX", "AI Tools & Automation","Software","Cloudflare"],
+      tags: ["React", "JavaScript", "HTML/CSS", "UI/UX", "AI Development Tools","Software","Cloudflare"],
       category: "Development",
       details:
         "Designed and developed a fully responsive personal portfolio website with AI collaboration from Claude Code to showcase my projects, experience, and skills. Built with Next.js 16 for modern React architecture and Tailwind CSS 4 for utility-first styling. Features include dynamic project filtering by category and skills, animated transitions, integrated contact form with Formspree, and certification ID copying functionality. Deployed to Cloudflare Pages with custom domain configuration and automatic GitHub deployment pipeline. This project demonstrates proficiency in modern web development, AI-assisted development workflows, and full-stack deployment strategies.",
       githubUrl: "https://github.com/SkaterDiver/Portfolio",
       liveUrl: "https://pszymbor.dev",
+    },
+    {
+      title: "Statistical Distribution Curve Fitter",
+      description:
+        "Interactive tool for fitting statistical distributions to CSV datasets",
+      image: "/Graph.png",
+      tags: ["Python", "Data Analysis", "Course Projects", "Software"],
+      category: "Development",
+      details:
+        "Developed a data analysis tool for fitting various statistical distributions to numerical datasets, designed to visualize and analyze data patterns through histogram representations. The application supports multiple input methods including random data generation, manual value entry, and CSV file uploads. Built entirely in Python using Streamlit for the interactive web interface, Matplotlib for data visualization, and SciPy for statistical curve fitting algorithms. Created as a practical tool for the Introduction to Programming for Nanotechnology Engineers course, demonstrating the application of statistical analysis and scientific computing to real-world engineering problems. Deployed on Streamlit Community Cloud for easy access and sharing.",
+      githubUrl: "https://github.com/SkaterDiver/Streamlit_distro_fitter",
+      liveUrl: "https://csvdataplotter.streamlit.app/",
     },
     {
       title: "CSWA Certification",
@@ -78,7 +90,7 @@ export default function ProjectsSection() {
       description:
         "Multi-day workshop teaching the basics of reinforcement learning",
       image: "/Half-Cheetah.gif",
-      tags: ["AI Tools & Automation", "Python", "Software"],
+      tags: ["AI Development Tools", "Python", "Software"],
       category: "Machine Learning",
       details:
         "Participated in a multi-day reinforcement learning workshop hosted by Waterloo Engineering focused on learning the basics of reinforcement learning strategies and algorithms. Projects included optimizing an agent's 2D pathfinding on a square grid obstacle course, training a simulated robot arm to optimally move blocks into a loading zone and teaching a robot cheetah to 'run' (pictured). All of these projects teach the agent through trial and error, rewarding optimal movement patterns. This hands-on learning experience provided insight into how AI agents learn to control physical systems and the practical challenges of reinforcement learning.",

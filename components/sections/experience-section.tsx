@@ -18,14 +18,14 @@ export default function ExperienceSection() {
       company: "Waterloo Rocketry",
       date: "2025 - Present",
       description:
-        "Building reusable composite molds and rocket components using infusion and wet layup techniques. Learning advanced manufacturing processes for aerospace-grade parts. Collaborating with a multidisciplinary team to design and test rocket systems. Gaining hands-on experience with materials science, manufacturing and structural engineering.",
+        "Building reusable composite molds and rocket components using infusion and wet layup techniques. Currently head of the fin metal leading edges project. Learning advanced manufacturing processes for aerospace-grade parts. Collaborating with a multidisciplinary team to design and test rocket systems. Gaining hands-on experience with materials science, manufacturing and structural engineering.",
     },
     {
       role: "Frontend UI/UX Designer",
-      company: "Pyko.app",
+      company: "Pyko.com",
       date: "2024 - 2025",
       description:
-        "Designed and implemented prototype landing and login pages using JavaScript and React. Worked with technology to translate product requirements into intuitive user interfaces. Collaborated with a startup team to deliver features under tight deadlines.",
+        "Designed and implemented prototype landing and login pages for a local startup using JavaScript and React. Worked with technology to translate product requirements into intuitive and functional user interfaces. Collaborated with a startup team to deliver features under tight deadlines.",
     },
     {
       role: "Professional Tutor",

@@ -11,7 +11,18 @@ export default function ProjectsSection() {
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null)
 
   const projects = [
-    
+    {
+      title: "Wind Powered Triboelectric Generator",
+      description:
+        "Innovative wind-powered generator using the triboelectric effect",
+      image: "/TENG.png",
+      tags: ["CAD", "3D Printing", "Manufacturing", "Materials Science", "Research", "Course Projects"],
+      category: "Engineering",
+      details:
+        "Designed and fabricated a Triboelectric (nano)generator (TENG) for the Introduction to Nanotechnology (NE100) course that converts mechanical energy from wind into electrical energy through the triboelectric effect. The device features a whistle-driven turbine mechanism that generates 2.5V by creating friction between PVC and nylon surfaces as they rotate, producing static electricity. The complete build process involved CAD design in SolidWorks, 3D printing custom components, and then putting everything together to harness the generated charge. This generator design earned the Most Innovative Design Award out of over 20 other teams in my NE class and is currently on display in the Quantum-Nano Centre (QNC) at the University of Waterloo (keep an eye out if you are ever in there :). This was a fun project demonstrating practical applications of nanoscale phenomena and sustainable energy harvesting.",
+      githubUrl: "",
+      liveUrl: "",
+    },
     {
       title: "Metal Fin Cap Optimization",
       description:
@@ -28,7 +39,7 @@ export default function ProjectsSection() {
       title: "Composite Rocket Parts",
       description:
         "Aerospace-grade composite fabrication",
-      image: "/placeholder.svg",
+      image: "/CompositeManufacturing.png",
       tags: ["Composites", "Manufacturing", "Aerospace", "Materials Science"],
       category: "Engineering",
       details:
@@ -37,7 +48,7 @@ export default function ProjectsSection() {
       liveUrl: "",
     },
     {
-      title: "Pyko beta UI",
+      title: "Pyko Beta UI",
       description:
         "Startup landing page design",
       image: "/Pyko.png",
@@ -90,7 +101,7 @@ export default function ProjectsSection() {
       description:
         "Multi-day workshop teaching the basics of reinforcement learning",
       image: "/Half-Cheetah.gif",
-      tags: ["AI Development Tools", "Python", "Software"],
+      tags: ["Python", "Software"],
       category: "Machine Learning",
       details:
         "Participated in a multi-day reinforcement learning workshop hosted by Waterloo Engineering focused on learning the basics of reinforcement learning strategies and algorithms. Projects included optimizing an agent's 2D pathfinding on a square grid obstacle course, training a simulated robot arm to optimally move blocks into a loading zone and teaching a robot cheetah to 'run' (pictured). All of these projects teach the agent through trial and error, rewarding optimal movement patterns. This hands-on learning experience provided insight into how AI agents learn to control physical systems and the practical challenges of reinforcement learning.",

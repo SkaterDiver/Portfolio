@@ -83,7 +83,7 @@ export default function ProjectCard({ title, description, image, tags, category,
         {/* Modal Content */}
         <div className="p-6 space-y-6">
           {/* Image */}
-          <div className="h-64 bg-secondary/30 rounded-lg overflow-hidden relative">
+          <div className="h-[17rem] bg-secondary/30 rounded-lg overflow-hidden relative">
             <Image src={image || "/placeholder.svg"} alt={title} fill className="object-cover" />
           </div>
 

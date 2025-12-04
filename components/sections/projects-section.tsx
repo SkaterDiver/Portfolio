@@ -48,7 +48,7 @@ export default function ProjectsSection() {
       liveUrl: "",
     },
     {
-      title: "Pyko Beta UI",
+      title: "Pyko.com Beta UI",
       description:
         "Startup landing page design",
       image: "/Pyko.png",
@@ -79,7 +79,7 @@ export default function ProjectsSection() {
       tags: ["Python", "Data Analysis", "Course Projects", "Software"],
       category: "Development",
       details:
-        "Developed a data analysis tool for fitting various statistical distributions to numerical datasets, designed to visualize and analyze data patterns through histogram representations. The application supports multiple input methods including random data generation, manual value entry, and CSV file uploads. Built entirely in Python using Streamlit for the interactive web interface, Matplotlib for data visualization, and SciPy for statistical curve fitting algorithms. Created as a practical tool for the Introduction to Programming for Nanotechnology Engineers course, demonstrating the application of statistical analysis and scientific computing to real-world engineering problems. Deployed on Streamlit Community Cloud for easy access and sharing.",
+        "Developed a data analysis tool for fitting various statistical distributions to numerical datasets, designed to visualize and analyze data patterns through histogram representations. The application supports multiple input methods including random data generation, manual value entry, and CSV file uploads. Built entirely in Python using Streamlit for the interactive web interface, Matplotlib for data visualization, and SciPy for statistical curve fitting algorithms. Created as a practical tool for the Introduction to Programming for Nanotechnology Engineers (NE111) course, demonstrating the application of statistical analysis and scientific computing to real-world engineering problems. Deployed on Streamlit Community Cloud for easy access and sharing.",
       githubUrl: "https://github.com/SkaterDiver/Streamlit_distro_fitter",
       liveUrl: "https://csvdataplotter.streamlit.app/",
     },
